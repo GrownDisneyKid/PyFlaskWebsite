@@ -1,7 +1,8 @@
 # Justin McQueen
-# SDEV 300:6381
-# 08 JULY 2023
-# Lab Seven
+# 
+# This is a basic website using Python(PyCharm PE IDE), Flask, and HTML
+# User login information is stored in users.txt and hashed with sha-256
+# and is salted with an author selected salt.  
 
 from flask import Flask, render_template, request, redirect, url_for
 import hashlib
